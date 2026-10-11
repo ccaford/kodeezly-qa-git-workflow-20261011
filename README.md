@@ -7,3 +7,7 @@ It contains no customer information, credentials, production source, external se
 Open `index.html` in a browser through a local HTTP server or the platform's preview. The small app supports adding, persisting, and removing synthetic observations.
 
 This hand-authored fixture tests import and Git workflows. It is not evidence of model-generated app quality or readiness of any other project.
+
+## Remote QA synchronization note
+
+This documentation-only change exercises explicit pull confirmation and draft pull-request creation on the disposable QA branch. Application source and the published main release are unchanged.
