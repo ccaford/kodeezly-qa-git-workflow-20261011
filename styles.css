@@ -1,0 +1,19 @@
+:root{font-family:system-ui,sans-serif;color:#12382a;background:#f3f7f3;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;padding:3rem 1.25rem}
+main{max-width:44rem;margin:auto}
+.eyebrow{color:#3b6451;text-transform:uppercase;letter-spacing:.09em;font-size:.75rem;font-weight:700}
+h1{font-size:clamp(2.4rem,7vw,3.8rem);letter-spacing:-.04em;margin:.6rem 0}
+p{line-height:1.6}
+form{display:grid;gap:.7rem;background:white;border:1px solid #bdd0c2;border-radius:1rem;padding:1.5rem;margin:2rem 0 1rem}
+label{font-size:.9rem;font-weight:600}
+input,select,button{font:inherit;padding:.8rem;border-radius:.4rem;border:1px solid #849e8e;min-width:0}
+button{background:#185538;color:white;border-color:#185538;cursor:pointer;font-weight:600}
+button:hover{background:#103e29}
+input:focus-visible,select:focus-visible,button:focus-visible{outline:3px solid #c27615;outline-offset:3px}
+ul{padding:0;list-style:none;display:grid;gap:.75rem}
+li{display:flex;align-items:center;justify-content:space-between;gap:1rem;background:white;border:1px solid #bdd0c2;border-radius:.6rem;padding:1rem}
+li span{overflow-wrap:anywhere}
+li button{padding:.5rem .7rem;font-size:.85rem}
+#status{min-height:1.6rem;font-weight:600}
+@media(max-width:420px){body{padding:1.5rem 1rem}form{padding:1rem}li{align-items:flex-start}}
