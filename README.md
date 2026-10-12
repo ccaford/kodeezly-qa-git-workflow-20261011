@@ -7,5 +7,3 @@ It contains no customer information, credentials, production source, external se
 Open `index.html` in a browser through a local HTTP server or the platform's preview. The small app supports adding, persisting, and removing synthetic observations.
 
 This hand-authored fixture tests import and Git workflows. It is not evidence of model-generated app quality or readiness of any other project.
-
-Synthetic QA marker for the dedicated force-push branch; native Kodeezly push should restore the original README contents.
